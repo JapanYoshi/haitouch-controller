@@ -1,0 +1,96 @@
+.main {
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 1em 0;
+}
+
+.submit {
+  padding: 10px 1em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  font-size: larger;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 0 1em;
+  border: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: larger;
+}
+
+.submit:hover {
+  background-color: #ff5215;
+}
+
+.me {
+  color: red;
+}
+
+.me::before {
+  content:" ";
+}
+
+.details {
+  font-size: smaller;
+  font-style: italic;
+  color: #888888;
+}
+
+.ablylogo {
+  width: 160px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 200px auto;
+  gap: 1em;
+  max-width: 960px;
+  margin-bottom: 1em;
+  border: 1px dashed red;
+}
+
+.info {
+  margin-right: 1em;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: medium;
+}
+
+.link {
+  color: red;
+}
+
+.link:hover {
+  color: white;
+}
+
+.pic {
+  flex-shrink:  0;
+  min-width: 200px;
+  background-color: #888888;
+}
+
+.participant {
+  line-height: 1.6em;
+  list-style: none;
+}
+
+.participant::before {
+  content: "👤 ";
+}
